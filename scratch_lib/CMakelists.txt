@@ -1,0 +1,3 @@
+add_library(scratchLib SHARED src/scratch.cpp)
+target_include_directories(scratchLib PUBLIC include)
+add_subdirectory(tests)
